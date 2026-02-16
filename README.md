@@ -1,1 +1,2 @@
 # laravel-docker-template
+# products
