@@ -24,6 +24,6 @@ php artisan db:seed
 ・git clone git@github.com:coachtech-material/php.git
 ・docker-compose up -d --build
 
-9 開発閑居
+9 開発環境
 商品一覧
 http://localhost/products
