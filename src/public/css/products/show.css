@@ -1,0 +1,27 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #f0f0f0; color: #333; font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif; }
+.topbar { height: 46px; background: #efefef; border-bottom: 1px solid #e2e2e2; display: flex; align-items: center; padding: 0 18px; }
+.logo { color: #f1b600; font-weight: 700; font-style: italic; }
+.container { max-width: 980px; margin: 24px auto 40px; padding: 0 16px; }
+.breadcrumbs { margin-bottom: 10px; font-size: 13px; color: #4d84bd; }
+.breadcrumbs a { color: #4d84bd; text-decoration: none; }
+.grid { display: grid; grid-template-columns: 320px 1fr; gap: 26px; }
+.thumb { width: 100%; border: 1px solid #ddd; border-radius: 4px; background: #fff; overflow: hidden; }
+.thumb img { width: 100%; display: block; object-fit: cover; }
+.field { margin-bottom: 16px; }
+.label { display: block; margin-bottom: 6px; font-size: 14px; font-weight: 700; }
+input[type="text"], input[type="number"], textarea { width: 100%; border: 1px solid #ddd; border-radius: 4px; background: #fff; padding: 10px; font-size: 14px; }
+textarea { min-height: 120px; resize: vertical; }
+.season-list { display: flex; gap: 16px; flex-wrap: wrap; }
+.error { margin-top: 5px; color: #e60012; font-size: 12px; }
+.actions { margin-top: 20px; display: flex; gap: 12px; align-items: center; }
+.btn { min-width: 150px; height: 42px; border-radius: 4px; border: 0; font-weight: 700; cursor: pointer; }
+.btn-back { background: #ddd; color: #666; text-decoration: none; display: inline-flex; align-items: center; justify-content: center; }
+.btn-submit { background: #f1b600; color: #fff; }
+.btn-delete { margin-left: auto; background: transparent; color: #e60012; border: 0; cursor: pointer; font-size: 13px; }
+@media (max-width: 900px) {
+    .grid { grid-template-columns: 1fr; }
+    .thumb { max-width: 340px; }
+    .actions { flex-wrap: wrap; }
+    .btn-delete { margin-left: 0; }
+}

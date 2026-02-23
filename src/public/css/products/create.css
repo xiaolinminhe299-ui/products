@@ -1,0 +1,31 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #f0f0f0; color: #333; font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif; }
+.topbar { height: 46px; background: #efefef; border-bottom: 1px solid #e2e2e2; display: flex; align-items: center; padding: 0 18px; }
+.logo { color: #f1b600; font-weight: 700; font-style: italic; }
+.container { max-width: 760px; margin: 24px auto 40px; padding: 0 16px; }
+h1 { margin: 0 0 20px; font-size: 34px; }
+.field { margin-bottom: 18px; }
+.label { display: flex; gap: 8px; align-items: center; margin-bottom: 6px; font-size: 15px; font-weight: 700; }
+.req { background: #e60012; color: #fff; border-radius: 2px; font-size: 11px; padding: 1px 5px; line-height: 1.2; }
+input[type="text"], input[type="number"], textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fff;
+    padding: 10px;
+    font-size: 14px;
+}
+textarea { min-height: 130px; resize: vertical; }
+.file-line { display: flex; align-items: center; gap: 10px; }
+.season-list { display: flex; gap: 20px; flex-wrap: wrap; }
+.season-item { font-size: 14px; color: #666; }
+.error { margin-top: 5px; color: #e60012; font-size: 12px; }
+.actions { margin-top: 24px; display: flex; justify-content: center; gap: 18px; }
+.btn { min-width: 150px; height: 42px; border-radius: 4px; border: 0; font-weight: 700; cursor: pointer; }
+.btn-back { background: #ddd; color: #666; text-decoration: none; display: inline-flex; align-items: center; justify-content: center; }
+.btn-submit { background: #f1b600; color: #fff; }
+@media (max-width: 640px) {
+    h1 { font-size: 28px; }
+    .actions { flex-direction: column; }
+    .btn, .btn-back { width: 100%; }
+}
