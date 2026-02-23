@@ -8,7 +8,7 @@ use Illuminate\Database\Seeder;
 class SeasonSeeder extends Seeder
 {
     /**
-     * Run the database seeds.
+     * データベースのシーディングを実行する。
      *
      * @return void
      */

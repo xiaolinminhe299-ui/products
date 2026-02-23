@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Schema;
 class CreateProductSeasonTable extends Migration
 {
     /**
-     * Run the migrations.
+     * マイグレーションを実行する。
      *
      * @return void
      */
@@ -23,7 +23,7 @@ class CreateProductSeasonTable extends Migration
     }
 
     /**
-     * Reverse the migrations.
+     * マイグレーションをロールバックする。
      *
      * @return void
      */
