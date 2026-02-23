@@ -27,14 +27,3 @@ php artisan db:seed
 9 開発閑居
 商品一覧
 http://localhost/products
-商品詳細
-http://localhost/products/detail/1
-http://localhost/products/detail/2
-http://localhost/products/detail/3
-http://localhost/products/detail/4
-http://localhost/products/detail/5
-http://localhost/products/detail/6
-http://localhost/products/detail/7
-http://localhost/products/detail/8
-http://localhost/products/detail/9
-http://localhost/products/detail/10
